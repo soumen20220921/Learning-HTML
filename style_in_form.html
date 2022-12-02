@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat a sing up form</title>
+    <style>
+        #form{
+            width: 300px;
+            background-color: aliceblue;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .content{
+            margin: 0px;
+            margin-bottom: 4px;
+            margin-top:12px;
+        }
+        .input-item{
+            width: 100%;
+        }
+        #check{
+            margin-top: 12px;
+            margin-bottom: 18px;
+        }
+    </style>
+</head>
+<h1 style="text-align:center ;">Sign up</h1>
+<body style="background-color: lightblue ;">
+    <form id="form">
+       <div> 
+        <p class="content">Username:</p>
+        <input class="input-item" type="Username" name="Username"><br>
+          </div>
+        <div>
+            <p class="content">Email:</p>
+            <input  class="input-item"type="Username" name="Username"><br>
+        </div>
+        <div>
+            <p class="content">password</p>
+            <input  class="input-item"type="Username" name="Username"><br>
+         </div>
+        <div>
+            <p class="content">Confirm password</p>
+            <input  class="input-item"type="Username" name="Username"><br>
+        </div>
+        <div>
+        <div>
+          <p class="content">Gender</p>
+            <input type="radio" name="Male" value="Male">Male</input>
+            <input type="radio" name="Female" value="Female">Female</input>
+            <input type="radio" name="Other" value="Other">Other</input>
+        </div>
+    <div>
+        <p class="content">Security Question</p>
+        <select  class="input-item"name="Security Question" >
+            <option value="First job">First job</option>
+            <option value="First love">First love</option>
+            <option value="First wife">First wife</option>
+        </select>
+    </div>
+    <div>
+        <textarea  class="input-item" name="write here" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input id="check" type="checkbox" name="Terms-condition" value="accept">
+         I agree with your terms and conditions.
+    </div>
+    <div>
+        <input type="submit" value="Register">
+    </div>
+    </form>
+</body>
+</html>
